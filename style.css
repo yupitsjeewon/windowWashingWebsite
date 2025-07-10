@@ -7,18 +7,18 @@ body {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .header {
-    height: 75px;
+    height: 100px;
     background: #253243;
     color: #ffffff;
     display: flex;
     align-items: center;
     padding-left: 24px;
-    padding-right: 16px;
-    border-bottom: 2px solid white;
+    padding-right: 24px;
+    border-bottom: 4px solid white;
     font-size: 15px;
     justify-content: space-between;
 }
@@ -26,12 +26,13 @@ h1 {
 a {
     text-decoration: None;
     color: white;
-    border: 2px solid white;
     font-size: 20px;
+    font-weight: 600;
     padding: 6px;
     text-align: center;
     border-radius: 13px;
 }
+
 ul {
     list-style-type: None;
     display: flex;
@@ -39,17 +40,112 @@ ul {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 50px;
+    margin: 0;
 }
 
 .intro-text {
     color: white;
-    width: 350px;
+    width: 490px;
 }
 
 .intro {
     display: flex;
-    height: 300px;
+    height: 500px;
     background: #253243;
-    padding-left: 24px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.intro-images {
+    height: 450px;
+    border: solid white 3px;
+    border-radius: 13px;
+    padding: 3px;
+
+}
+
+.intro-image1 {
+    margin-right: 25px;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 13px;
+    background: white;
+    color: #253243;
+    font-weight: 600;
+    padding: 12px;
+    margin-top: 12px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 64px;
+}
+
+.services-header {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 64px;
+    color: #253243;
+}
+
+.services-images {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-top: 64px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.service-info {
+    width: 300px;
+}
+
+.service-image {
+    width: 300px;
+    height: 300px;
+    border: solid 5px #253243;
+    border-radius: 13px;
+    padding: 3px;
+}
+
+.service-text-header {
+    padding-top: 16px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #253243;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 400px;
+    font-size: 36px;
+    font-style: italic;
+    gap: 16px;
+    padding-left: 600px;
+    padding-right: 600px;
+    
+}
+
+.testimonial {
+    width: 800px;
+    align-self: center;
+    font-weight: 300;
+}
+
+.customer {
+    font-weight: 600;
+    font-size: 25px;
+    align-self: flex-end;
 }
