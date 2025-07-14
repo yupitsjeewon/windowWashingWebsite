@@ -139,13 +139,53 @@ button {
 }
 
 .testimonial {
-    width: 800px;
+    width: 50vw;
     align-self: center;
     font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .customer {
     font-weight: 600;
     font-size: 25px;
     align-self: flex-end;
+}
+
+.cta-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background: #3882F6;
+    display: flex;
+    gap: 40px;
+    color: white;
+    border-radius: 10px;
+    padding: 24px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+
+.cta-button {
+    font-size: 16px;
+    background: #3882F6;
+    color: white;
+    border: solid white 3px;
+
+}
+
+.footer {
+    height: 80px;
+    background-color: #253243;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
 }
